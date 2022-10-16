@@ -1,0 +1,208 @@
+/* 940px */
+@media  (max-width: 58.75em) {
+  .main-nav-list {
+    opacity: 0;
+    transition: all 0.5s;
+    pointer-events: none;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    background-color: orangered;
+  }
+
+  .nav-open .main-nav-list {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .mobile-btn-open {
+    position: fixed;
+  }
+  .mobile-btn-close {
+    position: fixed;
+  }
+
+  .mobile-btn-open {
+    display: block;
+  }
+
+  .nav-open .mobile-btn-open {
+    display: none;
+  }
+
+   .nav-open .mobile-btn-close {
+    display: block;
+  }
+
+  .web-devide-stick {
+    display: none;
+  }
+
+  .reliable-web-section {
+    padding: 0;
+  } 
+
+  .relationshop-companies-logos  {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .value-relationship-subheading {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .quickstart-link-list {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3rem;
+  } 
+
+  .design-development {
+    height: 100vh;
+  }
+}
+
+/* 812px */
+@media  (max-width: 50.75em) {
+  .reliable-web-container {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .reliable-main-left-section {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .reliable-main-left-section div {
+    max-width: 60%;
+  }
+
+  .reliable-main-heading {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .reliable-subheading {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .reliable-main-right-section {
+    justify-content: space-evenly;
+  }
+
+  .reliable-web-desscription p {
+    width: 100%;
+  }
+
+  .subhead-cnt-head {
+    text-align: center;
+  }
+
+  .resource-content-container {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .proud-work-subhead  {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+  }
+
+  .footer-end {
+    grid-template-columns: 1.5fr 2fr 1fr;
+  } 
+
+  .regional-partners-content-container {
+    grid-template-columns: 1fr 1fr;
+  }  
+
+}
+
+
+/* 750px */
+@media (max-width: 46.87em) {
+  .footer-end {
+    grid-template-columns: 1fr;
+  }
+  
+  .map-box {
+    display: block;
+  } 
+
+  .socialMedia-links {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+
+  .footer-links {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-link-heading {
+    padding-top: 3rem;
+  }
+}
+
+/* 630px */
+@media (max-width: 39.37em) {
+
+  .reliable-main-right-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .reliable-web-desscription p {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  
+  .reliable-web-desscription {
+    gap: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .where-now-list {
+    grid-template-columns: 1fr;
+  } 
+
+  .where-now-main-links {
+    flex-direction: column;
+    gap: 5rem;
+  } 
+
+  .proud-work-main-content {
+    grid-template-columns: 1fr;
+  }  
+
+  .value-relationship-subheading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  .relationshop-companies-logos  {
+    grid-template-columns: 1fr;
+  }
+
+  .regional-partners-content-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .industry-logo-container {
+    flex-direction: column;
+  }
+
+  .quickstart-link-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
